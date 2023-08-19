@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+#page{
+    max-width: 360px;
+    height: 780px;
+    background-color:  #FCFCFD;
+
+}
+
+.box-card{
+    width: 336px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F9E1DF;
+    margin: 30px 0 0 30px;
+    
+}
+
+.box-card .card1{
+    width: 143.843px;
+    height: 253.582px;
+    transform: rotate(65.212deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    opacity: 0.7;
+    background: #F6D5D1;
+    position: relative;
+   top: 50px;
+   left: 100px;
+}
+
+.box-card .card2{
+    width: 143.843px;
+    height: 210.839px;
+    transform: rotate(-19.129deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #EB9C92;
+    position: relative;
+    bottom:190px ;
+    left: 100px;
+}
+
+
+    .box-card .card3{
+        width: 203.948px;
+        height: 151px;
+        flex-shrink: 0;
+        border: 2px dashed #98A2B3;
+        position: relative;
+        bottom: 380px;
+        left: 63px;
+        
+    }
+
+    .card-size{
+     width: 332px;
+     display:  flex;
+     justify-content: space-around;
+     position: relative;
+     top: -230px; 
+    }
+    
+
+
+    .card-size p{
+        color: #FF4343;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+        
+        .card-size h2{
+            color: #101828;
+            font-family: Poppins;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+            
+        .card-text{
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: -30px;
+        }
+        .card-text h2{
+            padding-right:50px;
+            color: #101828;
+            font-family: Poppins;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+
+        .size{
+             margin: 90px auto;
+        }
+         
+     .size h3{
+        color: #101828;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 10px 0 0 35px;
+     }
+
+       
+        .number {
+         display: flex;
+         justify-content: center;
+         flex-direction: row;
+          align-items: center;
+          margin-left: 25px;
+         
+        }
+
+        .number div {
+            width: 50px;
+            height: 50px;
+            padding: 12px;
+            border-radius: 15px;
+            background: #e9edf3;
+            margin: 8px;
+            gap: 10px;
+            text-align: center;
+
+        }
+        .number div a{
+             text-decoration: none;
+             color: #101828;
+             text-align: center;
+             font-family: Poppins;
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+        }
+
+
+         .box-card svg{
+            position: absolute;
+            bottom: 310px;
+            left: 168px;
+         }
+           
+         .drop{
+            height: 85px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            margin-left: 35px;
+            position: relative;
+            bottom: 50px;
+       
+        
+         }
+         .drop1 {
+            display: flex;
+            justify-content:space-between;
+             align-items: center;
+         }
+
+         .drop2{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+         }
+
+         .button{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 20px;
+            margin-bottom: 60px;
+         }
+
+         .button .btn{
+            width: 148px;
+            padding: 10px 12px;
+            border-radius: 12px;
+            border: 1px solid #FF4343;
+         }
+         .button .btn a{
+             color: #FF4343;
+             text-align: center;
+             font-size: 12px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+             text-decoration: none;
+         }
+
+
+         .button .btn1{
+            width: 148px;
+            padding: 10px 12px;
+            border-radius: 12px;
+            background: #FF4343;
+            border: 1px solid #FF4343;
+         }
+
+         .button .btn1 a{
+            color: #FCFCFD;
+            text-align: center;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-decoration: none;
+       
+         }
+
+         .note{
+            width: 110.527px;
+            height: 11.083px;
+         }
+
+        .note p{
+            position: relative;
+            bottom:80vh;
+            left: 16vh;
+            color: #98A2B3;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .click{
+            position: relative;
+            bottom: 89vh;
+            left: 8vh;
+            display: inline-flex;
+            padding: 12px 15px 12px 15px;
+            border-radius: 10px;
+            background: rgba(3, 12, 29, 0.1);
+    
+        }
+
+        .click a{
+            color: #101828
+        }
+
+
+        .heart{
+            position: relative;
+            bottom: 89vh;
+            left: 37vh;
+             display: inline-flex;
+             padding: 12px 15px 12px 15px;
+             gap: 10px;
+             border-radius: 10px;
+             background: rgba(16, 24, 40, 0.10);
+        }
+
+        .heart a{
+           color: #101828;
+        }
+
+
+
+         
+
+
+
+        
